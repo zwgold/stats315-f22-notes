@@ -49,7 +49,7 @@ weights, biases, activations
 * Should be in range $[0, 1]$
     * "Valid Probabilities"
 * In the example, we use the sigmoid function to determine how "positive" the region was for the image detection of digits
-    * Sigmoid: $ \sigma{(x)} = \frac{1}{1 + e^{-x}}$
+    * Sigmoid: $\sigma{(x)} = \frac{1}{1 + e^{-x}}$
     * Very large negative numbers taken to 0, very large positive numbers taken to 1
     * $x = 0 \rightarrow \sigma{(x)} = \frac{1}{2}$
 * Other Functions:
